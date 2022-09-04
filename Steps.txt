@@ -1,0 +1,15 @@
+Create the pod:
+kubectl apply -f pod.yml
+
+Check the status of the pod:
+kubectl get pods
+
+Create the service:
+kubectl apply -f service.yml
+
+Run the following command to view the service:
+kubectl get services
+
+*** Take note of the service-demo port number *** 
+
+<YOUR_IP_ADDRESS>:<SERVICE_DEMO_PORT_NUMBER>

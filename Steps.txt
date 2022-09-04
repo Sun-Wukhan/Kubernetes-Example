@@ -1,3 +1,8 @@
+*** Make sure worker nodes have joined your cluster ***
+
+sudo kubeadm join <YOUR_IP>:6443 --token <YOUR_TOKEN> \
+    --discovery-token-ca-cert-hash sha256:<YOUR_HASH>
+
 Create the pod:
 kubectl apply -f pod.yml
 
